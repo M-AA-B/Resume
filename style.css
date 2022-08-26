@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: gainsboro;
+}
+ul{
+    list-style: none;
+}
+main{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+}
+
+.Personal, .Skills, .Languages{
+    padding: 1rem;
+    line-height: 2;
+}   
+.left, .Education, .Experience{
+    background-color: #fff;
+}
+.left-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.left-image{
+    position:relative;
+}
+h1{
+    padding: 3rem;
+}
+h2, h3, h4, h7{
+    font-size: 25px;
+}
+h5, h6,h8, h9, h10{
+    font-size: 18px;
+    color: gray;
+}
+
+h11, h12, h13, h14, h15{
+    color: rgb(7, 60, 204);
+}
+.Experience, .Education{
+    margin: 2rem;
+    padding: 1rem;
+    line-height: 2;    
+}
+.present{
+    background-color: #13C82F;
+    color: #fff;
+    padding: 0.3rem;
+}
+.Education ul{
+    font-size: 15px;
+}
+footer{
+    background-color: #009688;
+    font-size: 2rem;
+    text-align: center; 
+}
